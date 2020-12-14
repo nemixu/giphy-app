@@ -7,7 +7,7 @@ let gifResults = [];
 
 const search = () => {
   let input = document.getElementById("input").value;
-  const url = `http://api.giphy.com/v1/gifs/search?q=${input}&api_key=${apiKey}&limit=50`;
+  const url = `https://api.giphy.com/v1/gifs/search?q=${input}&api_key=${apiKey}&limit=50`;
     fetch(url)
       .then(result => result.json())
       .then(data => {
