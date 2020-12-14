@@ -1,4 +1,4 @@
-const apiKey = config.apiKey;
+const apiKey = "xxtzYtFHPixwGNodSmDJPr2HWGi3gVdU";
 let input = document.getElementById("input").value;
 const img = document.createElement('img');
 const images = document.getElementById('image')
